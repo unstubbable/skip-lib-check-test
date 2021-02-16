@@ -1,0 +1,18 @@
+{
+  "name": "skip-lib-check-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing the TypeScript compiler option skipLibCheck.",
+  "license": "MIT",
+  "author": "Hendrik Liebau",
+  "main": "lib/index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "tsc -p packages/a && tsc -p packages/b"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}

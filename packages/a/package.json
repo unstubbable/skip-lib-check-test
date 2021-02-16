@@ -1,0 +1,8 @@
+{
+  "name": "skip-lib-check-test-a",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Hendrik Liebau",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "skip-lib-check-test-b",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Hendrik Liebau",
+  "main": "lib/index.js",
+  "dependencies": {
+    "skip-lib-check-test-a": "1.0.0"
+  }
+}
